@@ -4,14 +4,12 @@ set -e
 PACKS=(
   "packs/BF5_logo.zip"
   "packs/BonaFriends 5.zip"
-  "packs/Autumn Leaves.zip"
-  "packs/Y'all, It's Fall!! - v4.1.0.zip"
 )
 BASE_META="packs/base/pack.mcmeta"
 OUT="build/merged_pack"
 ASSET="build/pack.zip"
 REPO="MaksGMaks/MinecraftResoucePacks"
-TAG="dev"
+TAG="pack"
 
 rm -rf "$OUT" "$ASSET"
 mkdir -p "$OUT"
