@@ -11,6 +11,7 @@ ASSET="build/pack.zip"
 REPO="MaksGMaks/MinecraftResoucePacks"
 TAG="pack"
 
+chmod -R u+rwX build/merged_pack
 rm -rf "$OUT" "$ASSET"
 mkdir -p "$OUT"
 
